@@ -7,3 +7,32 @@ input, button {
 margin: 5px;
 padding: 8px;
 }
+/* ページ全体のデザイン */
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+
+/* タイトル */
+h1 {
+color: blue;
+}
+
+/* 入力欄とボタン */
+input, button {
+padding: 8px;
+margin: 5px;
+}
+
+/* 車リスト */
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+/* 各車の表示 */
+li {
+margin: 5px 0;
+padding: 5px;
+border: 1px solid #ccc;
+}
