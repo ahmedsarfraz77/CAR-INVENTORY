@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Car Inventory</title>
+</head>
+<body>
+<h1>Car Inventory Manager</h1>
+
+<input type="text" id="model" placeholder="Car Model">
+<input type="number" id="price" placeholder="Price">
+<button onclick="addCar()">Add Car</button>
+
+<ul id="carList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
